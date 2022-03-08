@@ -1,0 +1,27 @@
+@media only screen and (min-width: 500px) {
+  .mainContainer {
+    grid-template-columns: 1fr 5fr 1fr;
+    /* color: red; */
+  }
+
+  .top4songs {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mainContainer {
+  background-color: #1e1e1e;
+  color: white;
+  overflow: auto;
+  padding-bottom: 25px;
+}
+
+.homeCompContainer {
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 4, 1) 0%,
+    rgba(121, 9, 41, 1) 27%,
+    rgba(255, 0, 0, 0.5217437316723564) 100%
+  );
+  padding-bottom: 20px;
+}

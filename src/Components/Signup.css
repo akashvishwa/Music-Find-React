@@ -1,0 +1,27 @@
+@media only screen and (min-width: 500px) {
+  .maincontLogin {
+    height: 1000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .formCont {
+    width: 90%;
+    height: 40%;
+  }
+}
+
+.formCont {
+  background-color: #181818;
+  padding-top: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.maincontLogin {
+  min-height: 800px;
+}
+
+
+
